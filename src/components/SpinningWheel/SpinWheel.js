@@ -7,7 +7,7 @@ export default class SpinWheel extends Component {
     render() {
         return (
             <div className='div'>
-                <img  className={this.props.name} src={wheel}/>
+                <img  className={this.props.name} src={wheel} alt="wheel_image"/>
                 <Button
                 onClick={this.props.startRotation}
                 >
