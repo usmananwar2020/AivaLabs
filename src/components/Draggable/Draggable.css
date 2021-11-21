@@ -1,0 +1,21 @@
+.object1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+.object2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(252, 80, 0);
+}
+.object3{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(0, 251, 13);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

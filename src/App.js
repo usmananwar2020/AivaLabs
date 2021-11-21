@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import ShowHeading from './pages/ShowHeading';
+import SpinningWheel from './pages/SpinningWheel';
+import ColorPicker from './pages/ColorPicker';
+import Draggable from './pages/Draggable';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className={'task'}>Task 1#</h1>
+        <Draggable/>
+      <h1 className={'task'}>Task 2#</h1>
+        <SpinningWheel/>
+      <h1 className={'task'}>Task 3#</h1>
+        <ColorPicker/>
+      <h1 className={'task'}>Task 4#</h1>
+        <ShowHeading/>
     </div>
   );
 }

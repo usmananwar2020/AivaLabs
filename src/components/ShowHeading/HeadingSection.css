@@ -1,0 +1,21 @@
+.heading{
+    color: black;
+}
+.paragraph1{
+    visibility: hidden;
+}
+.paragraph2{
+    opacity: 0.6;
+    visibility: visible;
+    color: rgb(252, 252, 252);
+    background-color: rgb(250, 0, 0);
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.paragraph3{
+    opacity: 1;
+    visibility: visible;
+    color: rgb(252, 252, 252);
+    background-color: rgb(250, 0, 0);
+}

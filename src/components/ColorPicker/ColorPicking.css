@@ -1,0 +1,38 @@
+.color{
+    display: flex;
+    justify-content: space-around;
+}
+.colorPool{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.colorPool1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(251, 2, 2);
+    border: 1px solid black;
+}
+.colorPool2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 194, 26);
+    border: 1px solid black;
+}
+.colorPool3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 110, 138);
+    border: 1px solid black;
+}
+.colorPool4{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(42, 3, 114);
+    border: 1px solid black;
+}
+.colorPool5{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 106);
+    border: 1px solid black;
+}
